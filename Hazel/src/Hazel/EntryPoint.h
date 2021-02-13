@@ -7,10 +7,7 @@ extern Hazel::Application* Hazel::CreateApplication();
 int main(int argc, char** argv)
 {
 	Hazel::Log::Init();
-	HZ_CORE_WARN("Initialized Log!");
-	int a = 20;
-	HZ_INFO("Initialized Log! Var={0}", a);
-
+	
 	auto app = Hazel::CreateApplication();
 	app->Run();
 	delete app;
