@@ -3,7 +3,7 @@
 
 #include "Hazel/Renderer/Renderer.h"
 
-#include "Input.h"
+#include "Hazel/Input.h"
 
 #define BIND_EVENT_FN(x) std::bind(&Application::x, this, std::placeholders::_1)
 
