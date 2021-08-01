@@ -186,7 +186,7 @@ private:
 	float m_CameraMoveSpeed = 5.0f;
 
 	float m_CameraRotation = 0.0f;
-	float m_CameraRotationSpeed = 100.0f;
+	float m_CameraRotationSpeed = 180.0f;
 };
 
 class Sandbox : public Hazel::Application
